@@ -50,4 +50,6 @@ public class FirebaseServiceImpl implements FirebaseService{
                 = firestore.collection(COLLECTION_NAME).document(name).delete();
         return "Document name: " + name + " delete";
     }
+
+
 }

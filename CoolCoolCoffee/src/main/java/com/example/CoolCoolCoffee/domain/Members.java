@@ -1,6 +1,12 @@
 package com.example.CoolCoolCoffee.domain;
 
 public class Members {
+    String user_name;
+    String user_password;
+    Long age;
+    Long weight;
+    Long goal_sleep_time;
+    Boolean app_access;
     public String getUser_name() {
         return user_name;
     }
@@ -48,12 +54,4 @@ public class Members {
     public void setApp_access(Boolean app_access) {
         this.app_access = app_access;
     }
-
-    String user_name;
-    String user_password;
-    Long age;
-    Long weight;
-    Long goal_sleep_time;
-    Boolean app_access;
-
 }
